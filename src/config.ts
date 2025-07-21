@@ -17,20 +17,20 @@ export interface SiteConfig {
 }
 
 export const config: SiteConfig = {
-  title: "Volks-Typo",
-  description: "A blog exploring the intersection of design, typography, and history",
+  title: "Math-Manepa",
+  description: "Website yang membahas mengenai materi Matematika dengan bahasa yang santai dan ringan. Harapannya dapat menjadi tambahan sumber belajar semua orang, khususnya siswa.",
   author: {
-    name: "Your Name",
-    bio: "Writer, designer, and explorer of aesthetic tensions between past and present.",
-    // avatar: "/images/avatar.jpg" // Uncomment and add your avatar image to public/images/
+    name: "Sahrul Aziz",
+    bio: "Math teacher, aspiring programmer, and amateur chess player.",
+    avatar: "/images/avatar.png" // Uncomment and add your avatar image to public/images/
   },
   social: {
-    github: "https://github.com/yourusername",
+    github: "https://github.com/Qrulaziz",
     twitter: "https://twitter.com/yourusername",
-    linkedin: "https://linkedin.com/in/yourusername",
-    email: "your.email@example.com"
+    linkedin: "https://linkedin.com/in/sahrul-aziz/",
+    email: "azizsahrul41@gmail.com"
   },
-  siteUrl: "https://volks-typo.example.com"
+  siteUrl: "https://math-manepa.netlify.com"
 };
 
 // Export constants for SEO component

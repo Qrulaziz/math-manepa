@@ -10,7 +10,7 @@ const { headings } = Astro.props;
 
 {headings.length > 0 && (
   <nav class="table-of-contents">
-    <h2 class="toc-title">Table of Contents</h2>
+    <h2 class="toc-title">Daftar Isi</h2>
     <ol class="toc-list">
       {headings.map(heading => (
         <li class={`toc-item toc-level-${heading.depth}`}>

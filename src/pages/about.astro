@@ -9,7 +9,7 @@ const pageDescription = `Learn more about ${author.name} and the ${title} blog`;
 <Layout title={`About | ${title}`} description={pageDescription}>
   <div class="about-page">
     <header class="page-header">
-      <h1 class="page-title">About</h1>
+      <h1 class="page-title">Tentang</h1>
       <hr class="page-rule" />
     </header>
 
@@ -49,13 +49,13 @@ const pageDescription = `Learn more about ${author.name} and the ${title} blog`;
             </svg>
           </a>
         )}
-        {social.twitter && (
+        <!-- {social.twitter && (
           <a href={social.twitter} target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
             <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
               <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
             </svg>
           </a>
-        )}
+        )} -->
         {social.linkedin && (
           <a href={social.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
@@ -75,10 +75,10 @@ const pageDescription = `Learn more about ${author.name} and the ${title} blog`;
     </div>
 
     <div class="content-section">
-      <h2>About This Blog</h2>
+      <h2>Tentang Website Ini</h2>
       <p>{description}</p>
       
-      <h2>Design Philosophy</h2>
+      <!-- <h2>Design Philosophy</h2>
       <p>
         Volks-Typo explores the fascinating intersection between Bauhaus modernism and 
         bold typography. This theme creates a minimalist aesthetic that is 
@@ -91,7 +91,7 @@ const pageDescription = `Learn more about ${author.name} and the ${title} blog`;
         <li><strong>Minimalism as a Base</strong>: Clean, uncluttered aesthetic with generous white space</li>
         <li><strong>Geometric Structure</strong>: Consistent 8-point grid system for layout harmony</li>
         <li><strong>High Contrast</strong>: Clear visual separation between elements</li>
-      </ul>
+      </ul> -->
     </div>
   </div>
 </Layout>

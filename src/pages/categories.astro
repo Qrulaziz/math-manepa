@@ -1,7 +1,7 @@
 ---
 import Layout from '../components/Layout.astro';
 
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.VITE_BASE_URL;
 
 // Get all blog posts
 const postsGlob = import.meta.glob('../content/blog/*.md', { eager: true });
@@ -38,9 +38,9 @@ const sortedCategories = Object.entries(categoryMap)
 <Layout title="Categories - Volks-Typo" description="Browse articles by category" showSidebar={true}>
   <div class="categories-page">
     <header class="page-header">
-      <h1 class="page-title">Categories</h1>
+      <h1 class="page-title">Kategori</h1>
       <p class="page-description">
-        Browse articles organized by category. Click on any category to see related posts.
+        Lagi nyari yang bikin mikir tapi seru? Siap-siap eksplor topik-topik keren yang bakal bikin kamu ketagihan belajar! 🕵️‍♂️🕵️‍♂️
       </p>
       <hr class="page-rule" />
     </header>
@@ -60,7 +60,7 @@ const sortedCategories = Object.entries(categoryMap)
 
     {sortedCategories.length === 0 && (
       <div class="no-categories">
-        <p>No categories found. Add categories to your blog posts in the frontmatter.</p>
+        <p>Tidak ditemukan kategori. Tambahkan kategori pada postinganmu.</p>
       </div>
     )}
   </div>
